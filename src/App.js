@@ -10,6 +10,7 @@ function App() {
         <Switch>
           <Route path="/" exact  component={LandingPage} />
           <Route path="/post" exact component={PostDetailed} />
+          <Route component={() => (<div>404 Not found </div>)} />
         </Switch>
       </BrowserRouter>
   );
