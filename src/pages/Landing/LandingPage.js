@@ -1,11 +1,12 @@
 
 import React from 'react';
+import {Link} from "react-router-dom";
 
 
 const LandingPage =()=>{
 
 return (
-<a href ="/post">Landing page</a>
+<Link to ="/post">Landing page</Link>
 
 );
 

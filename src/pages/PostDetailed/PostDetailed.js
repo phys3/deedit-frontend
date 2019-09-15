@@ -1,11 +1,11 @@
 import React from 'react';
-
+import {Link} from "react-router-dom";
 
 const PostDetailed = ()=>{
 
 return (
 
-<a href ="/">posts detailed</a>
+<Link to ="/">posts detailed</Link>
 
 )
 
