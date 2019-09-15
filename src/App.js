@@ -5,15 +5,26 @@ import {LandingPage, PostDetailed} from "../src/pages";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter
+    basename={process.env.PUBLIC_URL}
+    >
        
         <Switch>
-          <Route path="/" exact  component={LandingPage} />
-          <Route path="/post" exact component={PostDetailed} />
-          <Route component={() => (<div>404 Not found </div>)} />
+          <Route path="/" 
+          // render={(props) => <Dashboard {...props} isAuthed={true} />}
+          exact  component={LandingPage} />
+          <Route path="/post" exact component={PostDetailed} 
+          // render={(props) => <Dashboard {...props} isAuthed={true} />}
+          />
+
+          <Route    
+        // render={(props) => <Dashboard {...props} isAuthed={true} />}
+          component={() => (<div>404 Not found </div>)} />
         </Switch>
       </BrowserRouter>
   );
 }
 
 export default App;
+
+
