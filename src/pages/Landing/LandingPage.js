@@ -5,7 +5,7 @@ import React from 'react';
 const LandingPage =()=>{
 
 return (
-<div>Test</div>
+<a href ="/post">Landing page</a>
 
 );
 
