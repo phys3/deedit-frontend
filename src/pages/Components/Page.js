@@ -15,7 +15,7 @@ const Viewport = styled.div`
 const Content = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #f9f9fd;
+  background-color: #ededed;
 `;
 
 const Page = ({ children }) => {

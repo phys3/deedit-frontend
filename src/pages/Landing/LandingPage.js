@@ -1,6 +1,6 @@
 
 import React from 'react';
-// import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {Page, PageDocumentHead, PageHeader} from "../Components/index";
 
 
@@ -10,6 +10,7 @@ return (
 <Page>
     <PageDocumentHead/>
     <PageHeader/>
+    <Link to="/post">Landing page</Link>
 </Page>
 
 );
