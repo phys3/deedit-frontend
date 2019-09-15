@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import {LandingPage, PostDetailed} from "../src/pages/index";
+import {LandingPage, PostDetailed} from "../src/pages";
 
 function App() {
   return (
