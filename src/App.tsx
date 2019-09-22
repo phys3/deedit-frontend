@@ -8,7 +8,6 @@ function App() {
     <BrowserRouter
     basename={process.env.PUBLIC_URL}
     >
-       
         <Switch>
           <Route path="/" 
           // render={(props) => <Dashboard {...props} isAuthed={true} />}
