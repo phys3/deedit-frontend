@@ -18,7 +18,7 @@ const Content = styled.div`
   background-color: #ededed;
 `;
 
-const Page = ({ children }) => {
+const Page = ({ children }:any) => {
   return (
     <Viewport>
       <Content>{children}</Content>

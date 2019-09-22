@@ -8,7 +8,7 @@ const LandingPage =()=>{
 
 return (
 <Page>
-{/* <PageDocumentHead/> */}
+ <PageDocumentHead/>
     <PageHeader/>
     <Link to="/post">Landing page</Link>
 </Page>
