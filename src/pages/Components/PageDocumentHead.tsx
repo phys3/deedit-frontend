@@ -1,28 +1,28 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
+import * as React from 'react';
+import * as PropTypes from 'prop-types';
+import  Helmet from 'react-helmet';
 
 
-const PageDocumentHead = ({ description, lang, meta, keywords, title }) => {
+const PageDocumentHead = (props:any) => {
   return (
     <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
+      htmlAttributes={
+        props.lang
+      }
+      title={props.title}
  
       meta={[
         {
           name: `description`,
-          content: description,
+          content: props.description,
         },
         {
           property: `og:title`,
-          content: title,
+          content: props.title,
         },
         {
           property: `og:description`,
-          content: description,
+          content: props.description,
         },
         {
           property: `og:type`,
@@ -30,23 +30,23 @@ const PageDocumentHead = ({ description, lang, meta, keywords, title }) => {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: props.title,
         },
         {
           name: `twitter:description`,
-          content: description,
+          content: props.description,
         },
      
       ]
         .concat(
-          keywords.length > 0
+          props.keywords.length > 0
             ? {
                 name: `keywords`,
-                content: keywords.join(`, `),
+                content: props.keywords.join(`, `),
               }
             : []
         )
-        .concat(meta)}
+        .concat(props.meta)}
     />
   );
 };

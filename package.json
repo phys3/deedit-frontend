@@ -6,13 +6,15 @@
   "dependencies": {
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
+    "@types/react-helmet": "^5.0.10",
+    "@types/react-router-dom": "^4.3.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
-    "typescript": "^3.6.3", 
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.3.2",
+    "typescript": "3.6.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@types/styled-components": "^4.1.19",
     "awesome-typescript-loader": "^5.2.1",
     "source-map-loader": "^0.2.4",
     "typescript": "^3.6.3"
