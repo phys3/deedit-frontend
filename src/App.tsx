@@ -6,7 +6,7 @@ import {LandingPage, PostDetailed} from "./pages";
 function App() {
   return (
     <BrowserRouter
- 
+    basename={process.env.PUBLIC_URL}
     >
        
         <Switch>
