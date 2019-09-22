@@ -10,7 +10,7 @@ return (
 <Page>
  <PageDocumentHead/>
     <PageHeader/>
-    <Link to="/post">Landing page</Link>
+    <Link to="/post">Landing page (Typescript implemented)!</Link>
 </Page>
 
 );

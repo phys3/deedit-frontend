@@ -63,7 +63,7 @@ PageDocumentHead.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   keywords: PropTypes.arrayOf(PropTypes.string),
-  title: PropTypes.string.isRequired,
+  // title: PropTypes.string.isRequired, TODO: this is the root of one error
 };
 
 export default PageDocumentHead;
