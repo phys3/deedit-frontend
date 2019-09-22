@@ -1,12 +1,12 @@
-import React from 'react';
+import * as React from 'react';
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import {LandingPage, PostDetailed} from "../src/pages";
+import {LandingPage, PostDetailed} from "./pages";
 
 function App() {
   return (
     <BrowserRouter
-    basename={process.env.PUBLIC_URL}
+ 
     >
        
         <Switch>
