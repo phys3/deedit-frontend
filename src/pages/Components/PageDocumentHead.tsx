@@ -7,7 +7,7 @@ const PageDocumentHead = (props:any) => {
   return (
     <Helmet
       htmlAttributes={
-        props.lang
+        props.object
       }
       title={props.title}
  
