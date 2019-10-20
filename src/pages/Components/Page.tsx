@@ -4,7 +4,7 @@ import styled from 'styled-components/macro';
 const Viewport = styled.div`
   position: absolute;
   top: 0;
-
+  background-color: #ededed;
   bottom: 0;
   left: 0;
   right: 0;
