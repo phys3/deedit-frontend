@@ -1,6 +1,11 @@
 import * as React from 'react';
 // import styled from 'styled-components/macro';
-import {HeaderBox,HeaderWrapper,MarginSpacer, Test} from "./style"
+import {HeaderBox,HeaderWrapper,MarginSpacer} from "./style"
+import AdaPoolHeader from './components/AdaPool'
+import LogoSection from './components/Logo'
+import TimeLeft from './components/TimeLeft'
+import Login from './components/LogIn'
+import Search from './components/Search'
 
 
 const Header = ()=>{
@@ -14,25 +19,17 @@ const Header = ()=>{
 
 
 
-<Test>
-
-    bok
-</Test>
-
-<Test>
-
-    bok
-</Test>
 
 
+<LogoSection/>
 
-<Test>
+<AdaPoolHeader/>
 
-    bok
-</Test>
-
+<TimeLeft/>
 
 
+<Login/>
+<Search/>
 
 
 

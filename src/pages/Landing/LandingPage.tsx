@@ -42,29 +42,6 @@ return (
     <Link to="/post">Landing page (Typescript implemented)!</Link>
     <Link to="/post">Landing page (Typescript implemented)!</Link>
     <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
-    <Link to="/post">Landing page (Typescript implemented)!</Link>
 </Page>
 
 );
