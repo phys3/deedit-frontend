@@ -18,7 +18,7 @@ let numberOfDaysInMonth= new Date(now.getFullYear(), now.getMonth()+1, 0).getDat
 
 let daysLeft= numberOfDaysInMonth+1 - new Date().getDate();
     return(<TimeLeftUntillAchievement>
-       Achievement time left: {daysLeft} day
+       Days untill next achievement: {daysLeft} day
         </TimeLeftUntillAchievement>)
 }
 
