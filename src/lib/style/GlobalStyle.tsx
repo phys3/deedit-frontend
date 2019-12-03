@@ -26,8 +26,14 @@ time, mark, audio, video {
 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
 	vertical-align: baseline;
 }
+/* TODO: Delete After */
+section{
 
-
+  width:100%;
+  height: 1100px;
+background-color:blue;
+margin: 2px;
+}
 
 
   a:active {text-decoration: none;
