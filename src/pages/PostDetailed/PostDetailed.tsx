@@ -1,6 +1,8 @@
 import * as React from 'react';
-import {Link} from "react-router-dom";
-import {Page, PageDocumentHead, PageHeader} from "../Components/index";
+import {Page, PageDocumentHead, PageHeader, SecondaryHeader} from "../Components/index";
+import {MainSection} from './style'
+import CurrentPost from './Components/CurrentPost'
+
 
 const PostDetailed = ()=>{
 
@@ -10,7 +12,15 @@ return (
 <Page>
  <PageDocumentHead />
     <PageHeader/>
-    <Link to ="/">posts detailed</Link>
+    <SecondaryHeader/>
+
+    <MainSection>
+{/* TODO: delete section css in global style when replacing section code */}
+<section>BOX LEFT</section>
+<CurrentPost/>
+<section>BOX RIGHT</section>
+ </MainSection>
+
 </Page>
 )
 

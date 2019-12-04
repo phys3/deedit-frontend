@@ -31,7 +31,7 @@ section{
 
   width:600px;
   height: 1100px;
-background-color:blue;
+border:2px solid;
 margin: 2px;
 }
 

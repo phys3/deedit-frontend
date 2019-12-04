@@ -1,6 +1,7 @@
 import styled from "styled-components/macro";
 import * as theme from "../../../../lib/theme/theme";
 import * as React from "react";
+import  {Link} from "react-router-dom";
 
 type defineProps = {
   fontSize?: string;
@@ -8,6 +9,10 @@ type defineProps = {
   marginLeft?: string;
   opacity?: string;
 };
+
+const LinkStyled = styled(Link)`
+
+`
 
 const AllPostsWrapper = styled.div`
   width: 640px;
@@ -58,6 +63,8 @@ const IndividualButton = styled.img<defineProps>`
   box-sizing: border-box;
 `;
 
+
+
 const MainPosts = () => {
   return (
     <AllPostsWrapper>
@@ -68,10 +75,12 @@ const MainPosts = () => {
         <UserNameAndTitle marginTop="6px" fontSize="22px">
           Checkmate
         </UserNameAndTitle>
+        <LinkStyled to="/post">
         <PostContent
           marginTop="8px"
           src="https://img-9gag-fun.9cache.com/photo/aBgZ2zO_460swp.webp"
         />
+        </LinkStyled>
         <PostMeta marginTop="8px" opacity="0.5">
           338 points · 31 comments{" "}
         </PostMeta>

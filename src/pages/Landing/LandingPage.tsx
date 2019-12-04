@@ -4,7 +4,7 @@ import * as React from 'react';
 import {Page, PageDocumentHead, PageHeader, SecondaryHeader} from "../Components/index";
 // import styled from 'styled-components';
 import {MainSection} from './style'
-import MainPosts from './MainSection/components/MainPosts'
+import MainPosts from './MainSection/Components/MainPosts'
 
 
 // const LinkStyled = styled(Link)`
@@ -25,10 +25,10 @@ return (
     {/* <LinkStyled to="/post">Landing page !</LinkStyled> */}
   
  <MainSection>
-
-<section>box</section>
+{/* TODO: delete section css in global style when replacing section code */}
+<section>BOX LEFT</section>
 <MainPosts/>
-<section>box</section>
+<section>BOX RIGHT</section>
  </MainSection>
 
 

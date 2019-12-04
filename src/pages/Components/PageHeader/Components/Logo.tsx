@@ -1,5 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components/macro'
+import { Link } from 'react-router-dom';
 
 
 
@@ -13,6 +14,7 @@ height:100%;
 const LogoImage = styled.img`
 
 width:50px;
+height:100%;
 
 `
 
@@ -23,7 +25,9 @@ const LogoSection = ()=>{
 
 return(
 <LogoWrapper>
-    <LogoImage src = "https://www.pngix.com/pngfile/middle/193-1937265_png-wic-logo-png-transparent-png.png"/>
+    <Link to ="/">
+    <LogoImage src = "https://www.pngkey.com/png/detail/141-1416946_logos-what-is-a-generic-logo-transparent-background.png"/>
+    </Link> 
 </LogoWrapper>
 
 

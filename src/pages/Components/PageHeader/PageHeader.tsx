@@ -1,11 +1,11 @@
 import * as React from "react";
 // import styled from 'styled-components/macro';
 import { HeaderBox, HeaderWrapper, MarginSpacer } from "./style";
-import AdaPoolHeader from "./components/AdaPool";
-import LogoSection from "./components/Logo";
-import TimeLeft from "./components/TimeLeft";
-import Login from "./components/LogIn";
-import Search from "./components/Search";
+import AdaPoolHeader from "./Components/AdaPool";
+import LogoSection from "./Components/Logo";
+import TimeLeft from "./Components/TimeLeft";
+import Login from "./Components/LogIn";
+import Search from "./Components/Search";
 
 const Header = () => {
   return (
