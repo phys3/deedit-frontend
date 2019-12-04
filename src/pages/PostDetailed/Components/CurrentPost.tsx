@@ -42,7 +42,7 @@ const PostButtonsContainer = styled.div<defineProps>`
   width: 100%;
   height: 40px;
   margin-top: ${props => props.marginTop};
-
+position:relative;
   opacity: 1;
   display: flex;
   justify-content: space-between;
@@ -61,6 +61,17 @@ const IndividualButton = styled.img<defineProps>`
   box-sizing: border-box;
   transform: ${props => props.transform};
 `;
+
+
+const StarAchievement = styled.img<defineProps>`
+  height: inherit;
+  border: 2px solid black;
+  width:40px;
+  margin-left: ${props => props.marginLeft};
+  box-sizing: border-box;
+  transform: ${props => props.transform};
+`;
+
 
 const CommentsHeader = styled.div<defineProps>`
 
@@ -157,7 +168,10 @@ const CurrentPost = () => {
         <UserNameAndTitle marginTop="6px" fontSize="22px">
           Checkmate
         </UserNameAndTitle>
-      
+        <StarAchievement transform="translate(15px,150px)"
+              marginLeft="8px"
+              src="https://www.pikpng.com/pngl/m/1-18123_star-png-clipart-png-image-gold-star-transparent.png"
+            ></StarAchievement>
         <PostButtonsContainer marginTop="12px">
           <ButtonGroupContainer>
             <IndividualButton src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-512.png" />
@@ -167,13 +181,11 @@ const CurrentPost = () => {
             />
           </ButtonGroupContainer>
           <PostMeta marginTop="8px" opacity="1">
-          338 points <AchievementWinnerSpan>Sarcasm Science(Osvojil achiev.) </AchievementWinnerSpan>
+          338 points <AchievementWinnerSpan>Sarcasm Science(achiev.) </AchievementWinnerSpan>
         31 comments{" "}  </PostMeta>
+        
           <ButtonGroupContainer>
-          <IndividualButton transform="translate(70px,90px)"
-              marginLeft="8px"
-              src="https://www.pikpng.com/pngl/m/1-18123_star-png-clipart-png-image-gold-star-transparent.png"
-            ></IndividualButton>
+         
             <IndividualButton src="https://i7.pngguru.com/preview/273/136/42/computer-icons-online-chat-text-messaging-sms-comment-pic-png.jpg" />
             <IndividualButton
               marginLeft="8px"
