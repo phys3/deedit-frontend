@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 
 import * as React from "react";
-import  {Link} from "react-router-dom";
+// import  {Link} from "react-router-dom";
 
 type defineProps = {
   fontSize?: string;

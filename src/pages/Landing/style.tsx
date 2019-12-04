@@ -1,6 +1,6 @@
 
 import styled from 'styled-components/macro';
-import * as theme from '../../lib/theme/theme';
+// import * as theme from '../../lib/theme/theme';
 
 
 const MainSection = styled.div`
