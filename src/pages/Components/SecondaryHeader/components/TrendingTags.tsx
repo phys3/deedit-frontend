@@ -12,7 +12,13 @@ color:blue;
 text-decoration:underline;
 font-weight: 700;
 
-` 
+`
+
+const Span = styled.span`
+color:#3D9970;
+text-decoration:inherit;
+
+`
 
 const TrendingTags = ()=>{
 
@@ -22,7 +28,7 @@ const TrendingTags = ()=>{
 
 
 return (<TagsContainer> 
-    Thanksgiving,
+   <Span>THE DEEDS </Span>  &nbsp; Thanksgiving,
     Black Friday,
     Pokemon,
     Tesla,
