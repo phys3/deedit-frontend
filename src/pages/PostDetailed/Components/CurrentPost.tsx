@@ -15,7 +15,7 @@ type defineProps = {
 
 
 const IndividualPost = styled.div`
-  width: 90%;
+  width: 55%;
   display: flex;
   flex-direction: column;
 `;
