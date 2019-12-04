@@ -29,7 +29,7 @@ time, mark, audio, video {
 /* TODO: Delete After */
 section{
 
-  width:100%;
+  width:600px;
   height: 1100px;
 background-color:blue;
 margin: 2px;

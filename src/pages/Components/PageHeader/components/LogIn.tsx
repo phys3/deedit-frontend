@@ -8,7 +8,7 @@ display:flex;
 
 
 interface TitleProps {
-    readonly marginRight: string;
+    readonly marginRight?: string;
   };
   
   const LoginButton = styled.button<TitleProps>`
@@ -20,14 +20,14 @@ interface TitleProps {
 
 const Login = ()=>{
 
-  console.log([])
+  
 
 
     return(
         <ButtonsWrapper>
 <LoginButton marginRight ="22px" >Log In</LoginButton>
 
-<LoginButton marginRight ="">Sign Up</LoginButton>
+<LoginButton >Sign Up</LoginButton>
 </ButtonsWrapper>
     )
 }

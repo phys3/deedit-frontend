@@ -7,6 +7,7 @@ const MainSection = styled.div`
 margin-top:60px;
 display:flex;
 width:100%;
+justify-content:space-between;
 `
 
 export {MainSection};
