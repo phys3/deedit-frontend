@@ -5,6 +5,7 @@ import  {Link} from "react-router-dom";
 
 type defineProps = {
   fontSize?: string;
+  fontWeight?:string;
   marginTop?: string;
   marginLeft?: string;
   opacity?: string;
@@ -95,7 +96,39 @@ bottom: -20px;
 
 `
 
+const AllCommentsContainer = styled.div`
 
+display:flex;
+flex-direction:column;
+margin-top:32px;
+padding:8px;
+`
+
+const IndividualCommentContainer = styled.div`
+
+display:flex;
+flex-direction:row;
+
+`
+
+const CommentAvatar = styled.img`
+
+border-radius:60px;
+width:80px;
+`
+const CommentWrapper = styled.div`
+display:flex;
+margin-left:16px;
+flex-direction:column;
+width:100%;
+justify-content: space-evenly;
+`
+
+const CommentTextAndName = styled.div<defineProps>`
+
+font-weight:${props => props.fontWeight};
+
+`
 
 
 const CurrentPost = () => {
@@ -142,7 +175,18 @@ const CurrentPost = () => {
 <SubmitCommentTextArea></SubmitCommentTextArea>
 <ButtonPost>Post</ButtonPost>
    </PostComment>
-       
+   
+       <AllCommentsContainer>
+
+<IndividualCommentContainer>
+
+<CommentAvatar src = "https://accounts-cdn.9gag.com/media/avatar/41774470_100_14.jpg"/>
+<CommentWrapper>
+<CommentTextAndName fontWeight = "700">Lala_lady_44</CommentTextAndName>
+<CommentTextAndName> I do the cha cha like a sissy girl</CommentTextAndName></CommentWrapper>
+</IndividualCommentContainer>
+
+       </AllCommentsContainer>
        
       </IndividualPost>
     
