@@ -9,6 +9,7 @@ type defineProps = {
   marginTop?: string;
   marginLeft?: string;
   opacity?: string;
+  transform?:string;
 };
 
 
@@ -58,6 +59,7 @@ const IndividualButton = styled.img<defineProps>`
   border: 2px solid black;
   margin-left: ${props => props.marginLeft};
   box-sizing: border-box;
+  transform: ${props => props.transform};
 `;
 
 const CommentsHeader = styled.div<defineProps>`
@@ -137,6 +139,12 @@ font-size:12px;
 
 
 `
+const AchievementWinnerSpan = styled.span`
+
+color:#3D9970;
+font-weight:700;
+
+`
 
 
 const CurrentPost = () => {
@@ -158,26 +166,27 @@ const CurrentPost = () => {
               src="https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-512.png"
             />
           </ButtonGroupContainer>
-          <PostMeta marginTop="8px" opacity="0.5">
-          338 points · 31 comments{" "}
-        </PostMeta>
+          <PostMeta marginTop="8px" opacity="1">
+          338 points <AchievementWinnerSpan>Sarcasm Science(Osvojil achiev.) </AchievementWinnerSpan>
+        31 comments{" "}  </PostMeta>
           <ButtonGroupContainer>
+          <IndividualButton transform="translate(70px,90px)"
+              marginLeft="8px"
+              src="https://www.pikpng.com/pngl/m/1-18123_star-png-clipart-png-image-gold-star-transparent.png"
+            ></IndividualButton>
             <IndividualButton src="https://i7.pngguru.com/preview/273/136/42/computer-icons-online-chat-text-messaging-sms-comment-pic-png.jpg" />
             <IndividualButton
               marginLeft="8px"
               src="https://images.vexels.com/media/users/3/132093/isolated/lists/9da7cf8cb0c670c8664f5f5629e95e73-share-social-icon.png"
             />
-            <IndividualButton
-              marginLeft="8px"
-              src="https://www.pikpng.com/pngl/m/1-18123_star-png-clipart-png-image-gold-star-transparent.png"
-            ></IndividualButton>
+            
           </ButtonGroupContainer>
         </PostButtonsContainer>
         <PostContent
           marginTop="8px"
           src="https://img-9gag-fun.9cache.com/photo/aBgZ2zO_460swp.webp"
         />
-    <CommentsHeader>11 Comments</CommentsHeader>
+    <CommentsHeader>31 Comments</CommentsHeader>
    <PostComment>
 <UserAvatar src= "https://accounts-cdn.9gag.com/media/default-avatar/1_0_100_v0.jpg"/>
 <SubmitCommentTextArea></SubmitCommentTextArea>
