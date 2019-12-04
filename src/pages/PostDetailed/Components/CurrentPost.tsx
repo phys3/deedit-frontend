@@ -129,6 +129,14 @@ const CommentTextAndName = styled.div<defineProps>`
 font-weight:${props => props.fontWeight};
 
 `
+const AchievementTitleSpan = styled.span`
+
+opacity:0.7;
+/* font-weight:500; */
+font-size:12px;
+
+
+`
 
 
 const CurrentPost = () => {
@@ -182,7 +190,7 @@ const CurrentPost = () => {
 
 <CommentAvatar src = "https://accounts-cdn.9gag.com/media/avatar/41774470_100_14.jpg"/>
 <CommentWrapper>
-<CommentTextAndName fontWeight = "700">Lala_lady_44</CommentTextAndName>
+<CommentTextAndName fontWeight = "700">Lala_lady_44<AchievementTitleSpan> The horse saver(dobila titulu od nekog achievementa pa ju stavila da se vidi)</AchievementTitleSpan></CommentTextAndName>
 <CommentTextAndName> I do the cha cha like a sissy girl</CommentTextAndName></CommentWrapper>
 </IndividualCommentContainer>
 
