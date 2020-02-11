@@ -39,14 +39,14 @@ margin: 2px;
   a:active {text-decoration: none;
   outline:none;
   border:none;
-  background-color:transparent;
+  /* background-color:transparent; */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   
   }
   a {text-decoration:none;
   outline:none;
   border:none;
-  background-color:transparent;
+  /* background-color:transparent; */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
 
@@ -54,7 +54,7 @@ margin: 2px;
     text-decoration:none;
   outline:none;
   border:none;
-  background-color:transparent;
+  /* background-color:transparent; */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
 
@@ -62,7 +62,7 @@ margin: 2px;
     text-decoration:none;
   outline:none;
   border:none;
-  background-color:transparent;
+  /* background-color:transparent; */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
 `;

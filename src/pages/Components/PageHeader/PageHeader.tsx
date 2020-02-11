@@ -6,6 +6,7 @@ import LogoSection from "./Components/Logo";
 import TimeLeft from "./Components/TimeLeft";
 import Login from "./Components/LogIn";
 import Search from "./Components/Search";
+import Upload from "./Components/Upload"
 
 const Header = () => {
   return (
@@ -20,6 +21,7 @@ const Header = () => {
 
           <Login />
           <Search />
+          <Upload/>
         </HeaderWrapper>
       </HeaderBox>
       <MarginSpacer />
