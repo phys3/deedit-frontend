@@ -4,6 +4,7 @@ import {MainSection} from './style'
 import CreatePost from './Components/CreatePost'
 
 
+
 const CreatePostPage = ()=>{
 
 return (

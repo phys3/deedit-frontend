@@ -9,6 +9,7 @@
     "@types/react-dom": "^16.9.0",
     "@types/react-helmet": "^5.0.10",
     "@types/react-router-dom": "^4.3.5",
+    "jodit-react": "^1.0.42",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
