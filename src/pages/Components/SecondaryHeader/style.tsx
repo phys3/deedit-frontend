@@ -9,7 +9,6 @@ display:flex;
 height: 100%;
 align-items: center;
 justify-content:space-between;
-border-top: 1px solid;
 width: 100%;
 margin-top: 8px;
 
