@@ -18,6 +18,8 @@ const UploadPost = styled(Link)<defineProps>`
 
 :hover{
     background:#272729;
+    color:white;
+    text-decoration:none;
 
 }
 text-align:center;

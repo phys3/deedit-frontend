@@ -1,9 +1,11 @@
 import * as React from 'react';
 import styled from 'styled-components/macro'
+import Button from 'react-bootstrap/Button';
 
 
 
-const AchievementBrowserButton = styled.button`
+
+const AchievementBrowserButton = styled(Button)`
 
 
 `
@@ -16,7 +18,7 @@ const AchievementBrowser = ()=>{
 
 
 
-return (<AchievementBrowserButton>Browse Achievements</AchievementBrowserButton>)
+return (<AchievementBrowserButton variant="secondary">Browse Achievements</AchievementBrowserButton>)
 
 }
 

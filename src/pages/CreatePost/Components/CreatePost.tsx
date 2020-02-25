@@ -1,4 +1,5 @@
 import styled from "styled-components/macro";
+import Button from 'react-bootstrap/Button';
 
 import * as React from "react";
 import {useState, useRef} from "react";
@@ -33,14 +34,14 @@ const CreatePostFormContainer = styled.div`
 const CreatePostHeader = styled.div`
   display: flex;
   justify-content:space-between;
-  border-bottom:1px solid gray;
+  border-bottom:1px solid #6c757d;
 `;
 const ChooseHeader = styled.div<defineProps>`
 
 width: 100%;
 text-align: center;
 font-weight:700;
-color:gray;
+color:#6c757d;
 
 padding:20px;
 transition:0.3s all;
@@ -48,15 +49,15 @@ transition:0.3s all;
 `;
 
 const ChooseHeaderPost = styled(ChooseHeader)`
-border-bottom : ${props => props.marginPost ==="post" && "2px solid gray"};
+border-bottom : ${props => props.marginPost ==="post" && "2px solid #6c757d"};
 `
 
 const ChooseHeaderImage = styled(ChooseHeader)`
-border-bottom : ${props => props.marginPost ==="image" && "2px solid gray"};
+border-bottom : ${props => props.marginPost ==="image" && "2px solid #6c757d"};
 `
 
 const ChooseHeaderUrl = styled(ChooseHeader)`
-border-bottom : ${props => props.marginPost ==="url" && "2px solid gray"};
+border-bottom : ${props => props.marginPost ==="url" && "2px solid #6c757d"};
 `
 
 
@@ -111,15 +112,32 @@ color:white;
 const SubmitContainer = styled.div`
 
 display:flex;
+padding: 16px 0;
+border-bottom:1px solid #6c757d;
 `
 
+const SubmitButton = styled(Button)`
 
+margin-left:16px;
+`
+const InputTags = styled(PostTitle)`
+
+`
+
+const DeedSection = styled.div`
+margin-top:8px;
+display:flex;
+justify-content:space-between;
+
+`
 
 const CreatePost = () => {
 
 const [Limit, setLimit] = useState(0);
 
 const [PostType, setPostType] = useState("post")
+// TODO: checkbox logic
+const [DeedState, setDeedState] = useState(false)
 
 let postSection;
 
@@ -181,7 +199,12 @@ setPostType("url")
 </PostTitleWrapper>
 {testniObjekt[PostType] } 
 
-<SubmitContainer>ded</SubmitContainer>
+<SubmitContainer>
+<InputTags placeholder="Tags"/>
+<SubmitButton variant="secondary">Submit</SubmitButton>
+
+</SubmitContainer>
+<DeedSection> <input onClick={()=>{console.log("")}} type="checkbox"/><div>This post is for the Deed of the month competition</div></DeedSection>
            </PostContentContainer>
    
       </CreatePostFormContainer>
