@@ -4,7 +4,7 @@ import {MainSection} from './style'
 import CurrentPost from './Components/CurrentPost'
 
 
-const PostDetailed = ()=>{
+const PostDetailed:React.FC = ()=>{
 
 return (
 

@@ -20,7 +20,7 @@ interface TitleProps {
 
 
 
-const Login = ()=>{
+const Login:React.FC = ()=>{
 
   
 

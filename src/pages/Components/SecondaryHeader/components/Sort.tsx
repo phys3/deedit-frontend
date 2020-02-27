@@ -34,10 +34,10 @@ const Sort = styled.div`
 
 
 
-const SortBy = ()=> {
+const SortBy:React.FC = ()=> {
 
 
-    return(<Sort>SORT CONTENT
+    return(<Sort>Sort content
 
 <DropdownContent>
 <Content>Hot</Content>

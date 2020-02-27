@@ -37,7 +37,7 @@ display:${props => props.displaybutton };
 
 `
 
-const Upload = ()=>{
+const Upload:React.FC = ()=>{
 
     const [uploadButton, setUploadButton] = useState(false)
     const [uploadSwitcher, setUploadSwitcher] = useState(true)

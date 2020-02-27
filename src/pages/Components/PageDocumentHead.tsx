@@ -3,7 +3,7 @@ import * as PropTypes from 'prop-types';
 import  Helmet from 'react-helmet';
 
 
-const PageDocumentHead = (props:any) => {
+const PageDocumentHead:React.FC = (props:any) => {
   return (
     <Helmet
       htmlAttributes={

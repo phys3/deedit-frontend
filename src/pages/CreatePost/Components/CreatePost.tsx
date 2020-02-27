@@ -131,7 +131,7 @@ justify-content:space-between;
 
 `
 
-const CreatePost = () => {
+const CreatePost:React.FC = () => {
 
 const [Limit, setLimit] = useState(0);
 
@@ -155,7 +155,7 @@ const editor = useRef(null)
 
 // TODO: use better definitions for types
 
-let testniObjekt :any = {
+let createPostWindow :any = {
 
   post:<JoditEditor
   ref={editor}
@@ -197,7 +197,7 @@ setPostType("url")
          type='text' name='Post Title'  placeholder="Post Title"/>
 <Counter>{Limit}/50</Counter>
 </PostTitleWrapper>
-{testniObjekt[PostType] } 
+{createPostWindow[PostType] } 
 
 <SubmitContainer>
 <InputTags placeholder="Tags"/>

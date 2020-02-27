@@ -9,7 +9,7 @@ import AchievementBrowser from './components/AchievementBrowser'
 
 
 
-const SecondaryHeader = ()=>{
+const SecondaryHeader:React.FC = ()=>{
 
 
     return(

@@ -8,7 +8,7 @@ import Login from "./Components/LogIn";
 import Search from "./Components/Search";
 import Upload from "./Components/Upload"
 
-const Header = () => {
+const Header:React.FC = () => {
   return (
     <>
       <HeaderBox>

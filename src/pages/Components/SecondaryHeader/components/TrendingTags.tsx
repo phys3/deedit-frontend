@@ -20,7 +20,7 @@ text-decoration:inherit;
 
 `
 
-const TrendingTags = ()=>{
+const TrendingTags:React.FC = ()=>{
 
 
 

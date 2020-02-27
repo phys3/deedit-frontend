@@ -158,7 +158,7 @@ font-weight:700;
 `
 
 
-const CurrentPost = () => {
+const CurrentPost:React.FC = () => {
   return (
    
       <IndividualPost>

@@ -20,7 +20,7 @@ height:100%;
 
 
 
-const LogoSection = ()=>{
+const LogoSection:React.FC = ()=>{
 
 
 return(

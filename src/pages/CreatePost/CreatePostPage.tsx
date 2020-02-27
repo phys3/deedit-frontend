@@ -5,7 +5,7 @@ import CreatePost from './Components/CreatePost'
 
 
 
-const CreatePostPage = ()=>{
+const CreatePostPage:React.FC = ()=>{
 
 return (
 

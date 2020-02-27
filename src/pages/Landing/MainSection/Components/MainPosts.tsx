@@ -65,7 +65,7 @@ const IndividualButton = styled.img<defineProps>`
 
 
 
-const MainPosts = () => {
+const MainPosts:React.FC = () => {
   return (
     <AllPostsWrapper>
       <IndividualPost>

@@ -18,7 +18,7 @@ const Content = styled.div`
   background-color: #ededed;
 `;
 
-const Page = ({ children }:any) => {
+const Page:React.FC = ({ children }:any) => {
   return (
     <Viewport>
       <Content>{children}</Content>

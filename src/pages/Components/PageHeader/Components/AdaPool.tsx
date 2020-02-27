@@ -7,7 +7,7 @@ const AdaWrapper = styled.div`
 
 `
 
-const AdaPoolHeader = ()=>{
+const AdaPoolHeader:React.FC = ()=>{
 
 let currentAda:number = 200531;
 

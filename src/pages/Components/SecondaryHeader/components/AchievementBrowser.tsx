@@ -11,7 +11,7 @@ const AchievementBrowserButton = styled(Button)`
 `
 
 
-const AchievementBrowser = ()=>{
+const AchievementBrowser:React.FC= ()=>{
 
 
 

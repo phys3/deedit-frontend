@@ -12,7 +12,7 @@ import MainPosts from './MainSection/Components/MainPosts'
 // width: max-content;
 // `
 
-const LandingPage =()=>{
+const LandingPage:React.FC =()=>{
 
 
 

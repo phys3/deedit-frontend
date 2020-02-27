@@ -9,7 +9,7 @@ const TimeLeftUntillAchievement = styled.div`
 `
 
 
-const TimeLeft = ()=>{
+const TimeLeft:React.FC = ()=>{
 
 
 let now = new Date();
